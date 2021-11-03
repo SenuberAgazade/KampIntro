@@ -1,0 +1,13 @@
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.exe
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.deps.json
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.runtimeconfig.json
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.runtimeconfig.dev.json
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.dll
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\bin\Debug\netcoreapp3.1\KampIntro.pdb
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.csprojAssemblyReference.cache
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.AssemblyInfoInputs.cache
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.AssemblyInfo.cs
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.csproj.CoreCompileInputs.cache
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.dll
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.pdb
+C:\Users\senuber.agazade\Desktop\KampIntro\KampIntro\obj\Debug\netcoreapp3.1\KampIntro.genruntimeconfig.cache
