@@ -1,0 +1,7 @@
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\bin\Debug\GameProject.exe.config
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\bin\Debug\GameProject.exe
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\bin\Debug\GameProject.pdb
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\obj\Debug\GameProject.csprojAssemblyReference.cache
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\obj\Debug\GameProject.csproj.CoreCompileInputs.cache
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\obj\Debug\GameProject.exe
+C:\Users\senuber.agazade\Desktop\KampIntro\GameProject\obj\Debug\GameProject.pdb

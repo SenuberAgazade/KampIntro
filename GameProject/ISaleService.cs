@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameSimulator
+namespace GameProject
 {
-    class Program
+    interface ISaleService
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void MakeSale(Gamer gamer, Campaign campaign);
     }
 }

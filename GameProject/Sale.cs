@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameSimulator.Entity
+namespace GameProject
 {
-    public class Sale
+    class Sale
     {
         public int Id { get; set; }
-        public int Quantity { get; set; }
-        public int Price { get; set; }
+        public string OrderNo { get; set; }
+        
     }
 }

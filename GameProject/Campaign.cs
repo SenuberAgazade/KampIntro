@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameSimulator.Entity
+namespace GameProject
 {
-    public class Campaign
+    class Campaign
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string CampaignName { get; set; }
         public int Discount { get; set; }
-
     }
 }

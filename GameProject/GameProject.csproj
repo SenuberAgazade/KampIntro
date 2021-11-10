@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A44A0230-4440-452A-80B4-74F3E5B49ACF}</ProjectGuid>
+    <ProjectGuid>{CE72FE2E-B1A3-43F7-BFD9-CDC88BE57E79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GameSimulator</RootNamespace>
-    <AssemblyName>GameSimulator</AssemblyName>
+    <RootNamespace>GameProject</RootNamespace>
+    <AssemblyName>GameProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,8 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,49 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IMemberCheckService.cs" />
-    <Compile Include="Abstract\IOperationService.cs" />
-    <Compile Include="Abstract\ISaleService.cs" />
-    <Compile Include="Adapters\MernisServiceAdapter.cs" />
-    <Compile Include="Concrete\CampaignManager.cs" />
-    <Compile Include="Concrete\MemberManager.cs" />
-    <Compile Include="Concrete\SaleManager.cs" />
-    <Compile Include="Connected Services\MernisServiceReference\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Entity\Campaign.cs" />
-    <Compile Include="Entity\Member.cs" />
-    <Compile Include="Entity\Sale.cs" />
+    <Compile Include="Campaign.cs" />
+    <Compile Include="CampaignManager.cs" />
+    <Compile Include="Gamer.cs" />
+    <Compile Include="GamerManager.cs" />
+    <Compile Include="ICampaignService.cs" />
+    <Compile Include="IGamerService.cs" />
+    <Compile Include="ISaleService.cs" />
+    <Compile Include="IUserValidationService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sale.cs" />
+    <Compile Include="SaleManager.cs" />
+    <Compile Include="UserValidationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\MernisServiceReference\GameSimulator.MernisServiceReference.TCKimlikNoDogrulaResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MernisServiceReference\KPSPublic.wsdl" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\MernisServiceReference\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MernisServiceReference\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MernisServiceReference\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MernisServiceReference\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
